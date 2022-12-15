@@ -2,14 +2,27 @@
 <html class="no-js" lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WT38KNK5Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7WT38KNK5Y');
+    </script>
     <meta charset="utf-8">
     <title><?= SITE_NAME ?></title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Add site Favicon -->
     <link rel="shortcut icon" href="<?= BASE_URL ?>assets/img/favicon.png" type="image/png">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
     <meta name="viewport" content="initial-scale = 1.0, user-scalable = no, width=device-width, height=device-height, maximum-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="amphtml" href="<?php echo current_url() ?>/amp">
@@ -46,6 +59,8 @@
     <meta name="hl_nhl_kanal" content="nonheadline-0-2-3" />
     <meta name="videopresent" content="No" />
 
+
+
     <meta name="idfokus" content="" />
     <meta name="author" content="IT DYNAMICS NFBS BOGOR" />
     <meta content="Dynamics 2023 merupakan ajang penguatan dan peningkatan jiwa kepemimpinan pelajar di-Indonesia khususnya di wilayah Jabodatabek, yang nantinya diharapkan dapat mengemban peran vital dilingkungan eksternal maupun internal" itemprop="headline" />
@@ -56,6 +71,14 @@
     <meta name="pubdate" content="2022-12-15T10-47-26Z" itemprop="datePublished" />
     <meta content="2022-12-15T10-42-48Z" itemprop="dateCreated" />
     <meta content="<?php echo current_url() ?>" itemprop="url" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@dynamics_nfbs" />
+    <meta name="twitter:site:id" content="@dynamics_nfbs" />
+    <meta name="twitter:creator" content="@dynamics_nfbs" />
+    <meta name="twitter:description" content="Dynamics 2023 merupakan ajang penguatan dan peningkatan jiwa kepemimpinan pelajar di-Indonesia khususnya di wilayah Jabodatabek, yang nantinya diharapkan dapat mengemban peran vital dilingkungan eksternal maupun internal" />
+    <meta name="twitter:image" content="https://akcdn.detik.net.id/api/wm/2022/12/07/pasar-gelap-tiket-piala-dunia-qatar-dijual-10-kali-lipat-dari-harga-resmi_169.jpeg?wid=60&w=650&v=1&t=jpeg" />
+
 
     <link rel="canonical" href="<?php echo current_url() ?>" />
     <meta name="dtk:acctype" content="acc-dynamics_nfbs" />
@@ -72,7 +95,7 @@
     <meta name="dtk:platform" content="desktop" />
     <meta name="dtk:videopresent" content="No" />
 
-   
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -87,9 +110,9 @@
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Ekonomi Bisnis",
-                    "item": "<?php echo current_url()?>"
+                    "item": "<?php echo current_url() ?>"
                 }
-                
+
             ]
         }
     </script>
@@ -151,11 +174,10 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/magnific-popup.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/preloader.css">
+
+    <!-- Timeline CSS -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/timeline.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
-    <!-- Farrel's Analytics System -->
-    <script async defer data-website-id="229bd447-7ca4-4612-a639-f879e73cd649" src="https://analytics.farrelwebsite.my.id/umami.js"></script>
-
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
     <?= $this->renderSection('loadCss') ?>
@@ -253,7 +275,7 @@
                                     <div class="footer_contact_info_list">
                                         <span>Location:</span>
                                         <p>Nurul Fikri Boarding School Bogor, Jl Jami, Sukaluyu, Tamansari, Bogor, Jawa Barat, 16610</p>
-                                    </div>                                   
+                                    </div>
                                 </div>
                             </div>
 
@@ -320,9 +342,6 @@
     <script src="<?= BASE_URL ?>assets/js/jquery-waypoints.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
-
-    <!-- Farrel's Analytics System -->
-    <script async defer data-website-id="229bd447-7ca4-4612-a639-f879e73cd649" src="https://analytics.farrelwebsite.my.id/umami.js"></script>
 
     <!-- Main JS -->
     <script src="<?= BASE_URL ?>assets/js/main.js"></script>
